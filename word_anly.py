@@ -4,8 +4,8 @@ from transformers import pipeline
 nlp = pipeline("sentiment-analysis")
 
 # 分析したいテキスト
-text = "This is a wonderful day."
-text_negative = "This is a terrible day."
+text = "I support you."
+text_negative = "Disappear!."
 
 # センチメント分析の実行
 result = nlp(text)
